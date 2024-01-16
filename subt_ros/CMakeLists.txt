@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 3.5.1 FATAL_ERROR)
 project(subt_ros)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
-add_compile_options(-std=c++11)
+add_compile_options(-std=c++17)
+set(CMAKE_CXX_STANDARD 17)
 
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs

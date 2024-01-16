@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/december/subt_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/december/subt_ws/src/subt/submitted_models/ctu_cras_norlab_x500_sensor_config_1/include/**",
+        "/home/december/subt_ws/src/subt/mav_msgs/include/**",
+        "/home/december/subt_ws/src/subt/rotors_control/include/**",
+        "/home/december/subt_ws/src/subt/subt-communication/subt_communication_broker/include/**",
+        "/home/december/subt_ws/src/subt/subt-communication/subt_communication_model/include/**",
+        "/home/december/subt_ws/src/subt/subt_ign/include/**",
+        "/home/december/subt_ws/src/subt/subt-communication/subt_rf_interface/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
